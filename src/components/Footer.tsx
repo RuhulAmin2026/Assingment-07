@@ -1,0 +1,2 @@
+import { Link } from 'react-router-dom';
+export default function Footer(){return <footer className="footer"><div><Link className="footer-brand" to="/">🛒 বাজার দর</Link><p>প্রয়োজনীয় পণ্যের দাম এক নজরে।</p><div className="footer-links"><Link to="/">হোম</Link><Link to="/signup">সাইন আপ</Link><Link to="/login">সাইন ইন</Link><Link to="/profile">অ্যাকাউন্ট</Link></div></div><small>সকল দাম সম্ভাব্য; বাজার অবস্থার ওপর নির্ভর করে পরিবর্তিত হয়।</small></footer>}
